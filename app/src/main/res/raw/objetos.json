@@ -1,0 +1,106 @@
+﻿{
+  "objetos": {
+    "objeto": [
+      {
+        "id": "objeto1",
+        "texto": "radio",
+        "imagen": "radio"
+      },
+      {
+        "id": "objeto2",
+        "texto": "lupa",
+        "imagen": "glass"
+       },
+       {
+        "id": "objeto3",
+        "texto": "fresa",
+        "imagen": "strawberry"
+       },
+       {
+        "id": "objeto4",
+        "texto": "mesa",
+        "imagen": "table"
+       },
+       {
+        "id": "objeto5",
+        "texto": "árbol",
+        "imagen": "tree"
+       },
+       {
+        "id": "objeto6",
+        "texto": "casa",
+        "imagen": "house"
+       },
+       {
+        "id": "objeto7",
+        "texto": "gato",
+        "imagen": "cat"
+       },
+       {
+        "id": "objeto8",
+        "texto": "impresora",
+        "imagen": "printer"
+       },
+       {
+        "id": "objeto9",
+        "texto": "murciélago",
+        "imagen": "bat"
+       },
+       {
+        "id": "objeto10",
+        "texto": "piña",
+        "imagen": "pineapple"
+       },
+       {
+        "id": "objeto11",
+        "texto": "sol",
+        "imagen": "sun"
+       },
+       {
+        "id": "objeto12",
+        "texto": "automóvil",
+        "imagen": "car"
+       },
+       {
+        "id": "objeto13",
+        "texto": "naranja",
+        "imagen": "orange"
+       },
+       {
+        "id": "objeto14",
+        "texto": "cama",
+        "imagen": "bed"
+       },
+       {
+        "id": "objeto15",
+        "texto": "audífonos",
+        "imagen": "headphones"
+       },
+       {
+        "id": "objeto16",
+        "texto": "lámpara",
+        "imagen": "lamp"
+       },
+       {
+        "id": "objeto17",
+        "texto": "perro",
+        "imagen": "dog"
+       },
+       {
+        "id": "objeto18",
+        "texto": "nubes",
+        "imagen": "clouds"
+       },
+       {
+        "id": "objeto19",
+        "texto": "silla",
+        "imagen": "chair"
+       },
+       {
+        "id": "objeto20",
+        "texto": "arcoiris",
+        "imagen": "rainbow"
+       }
+    ]
+  }
+}
