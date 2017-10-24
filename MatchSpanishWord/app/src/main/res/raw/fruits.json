@@ -1,0 +1,81 @@
+﻿{
+  "objetos": {
+    "objeto": [
+      {
+        "id": "objeto1",
+        "texto": "naranja",
+        "imagen": "fruta_orange"
+      },
+      {
+        "id": "objeto2",
+        "texto": "piña",
+        "imagen": "fruta_pineapple"
+       },
+       {
+        "id": "objeto3",
+        "texto": "fresa",
+        "imagen": "fruta_strawberry"
+       },
+       {
+        "id": "objeto4",
+        "texto": "manzana",
+        "imagen": "fruta_apple"
+       },
+       {
+        "id": "objeto5",
+        "texto": "uva",
+        "imagen": "fruta_grapes"
+       },
+       {
+        "id": "objeto6",
+        "texto": "cereza",
+        "imagen": "fruta_cherries"
+       },
+       {
+        "id": "objeto7",
+        "texto": "melocotón",
+        "imagen": "fruta_melocoton"
+       },
+       {
+        "id": "objeto8",
+        "texto": "pera",
+        "imagen": "fruta_pear"
+       },
+       {
+        "id": "objeto9",
+        "texto": "frambuesa",
+        "imagen": "fruta_raspberry"
+       },
+       {
+        "id": "objeto10",
+        "texto": "sandía",
+        "imagen": "fruta_watermelon"
+       },
+       {
+        "id": "objeto11",
+        "texto": "ciruela",
+        "imagen": "fruta_plump"
+       },
+       {
+        "id": "objeto12",
+        "texto": "limón",
+        "imagen": "fruta_lemon"
+       },
+       {
+        "id": "objeto13",
+        "texto": "platáno",
+        "imagen": "fruta_banana"
+       },
+       {
+        "id": "objeto14",
+        "texto": "mango",
+        "imagen": "fruta_mango"
+       },
+       {
+        "id": "objeto15",
+        "texto": "coco",
+        "imagen": "fruta_coco"
+       }
+    ]
+  }
+}
