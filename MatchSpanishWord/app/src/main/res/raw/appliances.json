@@ -1,0 +1,81 @@
+﻿{
+  "objetos": {
+    "objeto": [
+      {
+        "id": "objeto1",
+        "texto": "aire acondicionado",
+        "imagen": "appliances_aireacondicionado"
+      },
+      {
+        "id": "objeto2",
+        "texto": "aspiradora",
+        "imagen": "appliances_aspiradora"
+       },
+       {
+        "id": "objeto3",
+        "texto": "báscula",
+        "imagen": "appliances_bascula"
+       },
+       {
+        "id": "objeto4",
+        "texto": "batidora",
+        "imagen": "appliances_batidora"
+       },
+       {
+        "id": "objeto5",
+        "texto": "cafetera",
+        "imagen": "appliances_cafetera"
+       },
+       {
+        "id": "objeto6",
+        "texto": "cocina",
+        "imagen": "appliances_cocina"
+       },
+       {
+        "id": "objeto7",
+        "texto": "frigorífico",
+        "imagen": "appliances_frigorifico"
+       },
+       {
+        "id": "objeto8",
+        "texto": "hervidor",
+        "imagen": "appliances_hervidor"
+       },
+       {
+        "id": "objeto9",
+        "texto": "lavadora",
+        "imagen": "appliances_lavadora"
+       },
+       {
+        "id": "objeto10",
+        "texto": "microondas",
+        "imagen": "appliances_microondas"
+       },
+       {
+        "id": "objeto11",
+        "texto": "plancha",
+        "imagen": "appliances_plancha"
+       },
+       {
+        "id": "objeto12",
+        "texto": "secador",
+        "imagen": "appliances_secador"
+       },
+       {
+        "id": "objeto13",
+        "texto": "televisor",
+        "imagen": "appliances_televisor"
+       },
+       {
+        "id": "objeto14",
+        "texto": "tostador",
+        "imagen": "appliances_tostadora"
+       },
+       {
+        "id": "objeto15",
+        "texto": "ventilador",
+        "imagen": "appliances_ventilador"
+       }
+    ]
+  }
+}

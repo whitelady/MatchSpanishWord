@@ -1,0 +1,81 @@
+﻿{
+  "objetos": {
+    "objeto": [
+      {
+        "id": "objeto1",
+        "texto": "gato",
+        "imagen": "animales_gato"
+      },
+      {
+        "id": "objeto2",
+        "texto": "perro",
+        "imagen": "animales_perro"
+       },
+       {
+        "id": "objeto3",
+        "texto": "león",
+        "imagen": "animales_leon"
+       },
+       {
+        "id": "objeto4",
+        "texto": "elefante",
+        "imagen": "animales_elefante"
+       },
+       {
+        "id": "objeto5",
+        "texto": "cerdo",
+        "imagen": "animales_cerdo"
+       },
+       {
+        "id": "objeto6",
+        "texto": "conejo",
+        "imagen": "animales_conejo"
+       },
+       {
+        "id": "objeto7",
+        "texto": "oveja",
+        "imagen": "animales_oveja"
+       },
+       {
+        "id": "objeto8",
+        "texto": "mono",
+        "imagen": "animales_mono"
+       },
+       {
+        "id": "objeto9",
+        "texto": "zorro",
+        "imagen": "animales_zorro"
+       },
+       {
+        "id": "objeto10",
+        "texto": "vaca",
+        "imagen": "animales_vaca"
+       },
+       {
+        "id": "objeto11",
+        "texto": "burro",
+        "imagen": "animales_burro"
+       },
+       {
+        "id": "objeto12",
+        "texto": "zebra",
+        "imagen": "animales_zebra"
+       },
+       {
+        "id": "objeto13",
+        "texto": "tigre",
+        "imagen": "animales_tigre"
+       },
+       {
+        "id": "objeto14",
+        "texto": "pingüino",
+        "imagen": "animales_pinguino"
+       },
+       {
+        "id": "objeto15",
+        "texto": "buho",
+        "imagen": "animales_buho"
+       }
+    ]
+  }
+}
