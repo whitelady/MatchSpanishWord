@@ -199,7 +199,7 @@ public class GameActivity extends AppCompatActivity {
         life = false;
         time = false;
         setVolumeControlStream(AudioManager.STREAM_MUSIC);
-        contadorTxt.setText(String.valueOf(contadorObjeto)+"/"+String.valueOf(totalMatches));
+        contadorTxt.setText(getString(R.string.contador,contadorObjeto,totalMatches));
         lifeTxt.setText(String.valueOf(cantOportunidad));
         timeTxt.setText(getString(R.string.seconds, timeJuego/1000));
         randomPos = getRandomNumber(numeros.size());
@@ -251,7 +251,7 @@ public class GameActivity extends AppCompatActivity {
             playSound(CORRECT);
             feed.setImageResource(getResources().getIdentifier("correct", "drawable", getPackageName()));
             feed.setScaleType(ImageView.ScaleType.FIT_XY);
-            contadorTxt.setText(String.valueOf(contadorObjeto)+"/"+String.valueOf(totalMatches));
+            contadorTxt.setText(getString(R.string.contador,contadorObjeto,totalMatches));
             return true;
 
         } else {
@@ -284,7 +284,7 @@ public class GameActivity extends AppCompatActivity {
 
     //Funciones para manejar el sonido
     /** Populate the SoundPool*/
-    @SuppressWarnings("deprecation")
+
     public void initSounds(Context context) {
         // AudioManager audio settings for adjusting the volume
         audioManager = (AudioManager) getSystemService(AUDIO_SERVICE);
@@ -292,18 +292,12 @@ public class GameActivity extends AppCompatActivity {
         // the hardware volume controls.
         this.setVolumeControlStream(streamType);
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {
-            AudioAttributes audioAttributes = new AudioAttributes.Builder()
-                    .setUsage(AudioAttributes.USAGE_GAME)
-                    .setContentType(AudioAttributes.CONTENT_TYPE_SONIFICATION)
-                    .build();
-            soundPool = new SoundPool.Builder()
-                    .setMaxStreams(2)
-                    .setAudioAttributes(audioAttributes)
-                    .build();
+            createNewSoundPool();
+            Log.i("GAME", "initSounds: new sound");
         } else {
-            soundPool = new SoundPool(2, AudioManager.STREAM_MUSIC, 0);
+            createOldSoundPool();
+            Log.i("GAME", "initSounds: old sound");
         }
-
 
         // When Sound Pool load complete.
         soundPool.setOnLoadCompleteListener(new SoundPool.OnLoadCompleteListener() {
@@ -320,6 +314,27 @@ public class GameActivity extends AppCompatActivity {
         WRONG = soundPool.load(this, R.raw.error,1);
 
     }
+
+    protected void createNewSoundPool(){
+        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {
+            AudioAttributes audioAttributes = new AudioAttributes.Builder()
+                    .setUsage(AudioAttributes.USAGE_GAME)
+                    .setContentType(AudioAttributes.CONTENT_TYPE_SONIFICATION)
+                    .build();
+            soundPool = new SoundPool.Builder()
+                    .setAudioAttributes(audioAttributes)
+                    .setMaxStreams(5)
+                    .build();
+        }
+
+    }
+
+    @SuppressWarnings("deprecation")
+    protected void createOldSoundPool(){
+        soundPool = new SoundPool(5,AudioManager.STREAM_MUSIC,0);
+    }
+
+
 
     private void playSound(int soundID) {
 

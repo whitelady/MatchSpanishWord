@@ -35,7 +35,7 @@ public class FeedbackActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_feedback);
-        mAdView = (AdView) findViewById(R.id.adView);
+       mAdView = (AdView) findViewById(R.id.adView);
         AdRequest adRequest = new AdRequest.Builder().build();
         mAdView.loadAd(adRequest);
         mAdView.setAdListener(new AdListener() {
